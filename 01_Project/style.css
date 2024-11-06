@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     background-color: aliceblue;
 }
@@ -11,7 +15,6 @@ body{
 .container{
     max-width: 1170px;
     margin: auto;
-     
 }
 
 svg{
@@ -38,7 +41,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .nav-icons svg{
@@ -65,17 +68,17 @@ header{
     background-image: url("Banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
-/* New Section */
-
+/* Hero Section */
 .hero{
      
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 600px;
+    height: 50vh;
 }
 
 .hero-container{
@@ -92,5 +95,30 @@ header{
     color: #fff;
     padding: 20px 30px;
     font-size: 20px;
+}
+
+/* Products Section */
+
+.all-products{
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+}
+
+.products{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-content,
+ .about-img{
+    flex-basis: 100%;
 }
 
